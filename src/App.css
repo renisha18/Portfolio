@@ -1,0 +1,92 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Page background */
+body {
+  background: linear-gradient(135deg, #020617, #020b2d);
+  color: #e5e7eb;
+  min-height: 100vh;
+}
+
+/* App container */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 40px 20px;
+  position: relative;
+  justify-content: center;
+}
+
+/* Button group (navigation) */
+.nav-buttons {
+  position: fixed;
+  bottom: 40px;              /* 40px from bottom */
+  left: 50%;
+  transform: translateX(-50%);
+
+  display: flex;
+  gap: 14px;
+  padding: 10px 14px;
+
+  background: rgba(2, 6, 23, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  border: 1px solid #1e3a8a;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+
+  z-index: 1000;
+}
+
+/* Buttons */
+.nav-buttons button {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  border: none;
+  background-color: #020617;
+  color: #93c5fd;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.nav-buttons button:hover {
+  background-color: #1e3a8a;
+  color: white;
+  transform: translateY(-4px) scale(1.05);
+}
+
+/* Active page content */
+.page-content {
+  width: 100%;
+  max-width: 900px;
+  background-color: #020617;
+  border: 1px solid #1e3a8a;
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+
+  /* Center content vertically */
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .page-content {
+    padding: 20px;
+  }
+
+  .nav-buttons button {
+    width: 45px;
+    height: 45px;
+  }
+}
