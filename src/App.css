@@ -20,7 +20,9 @@ body {
   min-height: 100vh;
   padding: 40px 20px;
   position: relative;
-  justify-content: center;
+
+  align-items: center;      /* center horizontally */
+  justify-content: center;  /* center vertically */
 }
 
 /* Button group (navigation) */
@@ -67,18 +69,15 @@ body {
 /* Active page content */
 .page-content {
   width: 100%;
-  max-width: 900px;
+  max-width: 1000px;
+
   background-color: #020617;
   border: 1px solid #1e3a8a;
   border-radius: 16px;
-  padding: 30px;
+  padding: 50px;
+
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
-
-  /* Center content vertically */
-  margin-top: auto;
-  margin-bottom: auto;
 }
-
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .page-content {

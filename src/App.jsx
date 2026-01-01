@@ -14,7 +14,7 @@ function App() {
       <div className="nav-buttons">
         <button onClick={() => setActivePage("home")}>+</button>
         <button onClick={() => setActivePage("about")}>I</button>
-        <button onClick={() => setActivePage("projects")}>+</button>
+        <button onClick={() => setActivePage("projects")}>()</button>
         <button onClick={() => setActivePage("contacts")}>I</button>
       </div>
 
