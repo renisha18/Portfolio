@@ -20,7 +20,7 @@ function Contacts() {
       <div className="contact-item">
         <i className="bi bi-github"></i>
         <a
-          href="https://github.com/your-username"
+          href="https://github.com/renisha18"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -31,7 +31,7 @@ function Contacts() {
       <div className="contact-item">
         <i className="bi bi-linkedin"></i>
         <a
-          href="https://linkedin.com/in/your-username"
+          href="www.linkedin.com/in/renisha-ensalaita-r-47a2442a1"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -41,8 +41,8 @@ function Contacts() {
 
       <div className="contact-item">
         <i className="bi bi-envelope"></i>
-        <a href="mailto:yourmail@gmail.com">
-          yourmail@gmail.com
+        <a href="mailto:rrenie2005@gmail.com">
+          rrenie2005@gmail.com
         </a>
       </div>
     </div>

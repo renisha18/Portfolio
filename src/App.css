@@ -47,6 +47,10 @@ body {
   z-index: 1000;
 }
 
+.nav-buttons i {
+  font-size: 1.4rem;
+}
+
 /* Buttons */
 .nav-buttons button {
   width: 48px;
@@ -64,6 +68,10 @@ body {
   background-color: #1e3a8a;
   color: white;
   transform: translateY(-4px) scale(1.05);
+}
+
+.nav-buttons button:hover i {
+  filter: drop-shadow(0 0 6px rgba(147, 197, 253, 0.6));
 }
 
 /* Active page content */

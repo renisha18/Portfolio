@@ -12,10 +12,21 @@ function App() {
     <div className="app-container">
 
       <div className="nav-buttons">
-        <button onClick={() => setActivePage("home")}>+</button>
-        <button onClick={() => setActivePage("about")}>I</button>
-        <button onClick={() => setActivePage("projects")}>()</button>
-        <button onClick={() => setActivePage("contacts")}>I</button>
+        <button onClick={() => setActivePage("home")}>
+          <i className="bi bi-house"></i>
+        </button>
+
+        <button onClick={() => setActivePage("about")}>
+          <i className="bi bi-person"></i>
+        </button>
+
+        <button onClick={() => setActivePage("projects")}>
+          <i className="bi bi-grid"></i>
+        </button>
+
+        <button onClick={() => setActivePage("contacts")}>
+          <i className="bi bi-envelope"></i>
+        </button>
       </div>
 
       <div className="page-content">
