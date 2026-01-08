@@ -46,7 +46,7 @@ function Projects() {
       title: "Smart Hovercraft (IoT-Based Control System)",
       techStack: "Arduino · ESP Microcontroller · Blynk IoT · Embedded C · Motor Drivers · PWM Speed Control · Wireless Communication",
       description:
-        "A role-based web application implementing secure login and random user allocation using backend logic.",
+        "The Smart Hovercraft project is an IoT-based remote control system developed using a microcontroller and the Blynk platform to wirelessly operate a hovercraft. The system enables precise control over both direction and motor speed using PWM-based commands sent from a mobile application. Blynk acts as the control interface, allowing users to adjust speed and movement in real time through sliders and buttons. This project demonstrates my understanding of motor control, embedded programming, and real-time hardware–software integration, along with practical experience in building responsive IoT systems.",
       image:
         "https://ae01.alicdn.com/kf/Sfa8fe82e781d437e98ebbe9b62c308b7J/Amphibious-Remote-Control-Hovercraft-RC-Ship-Model-DIY-Handmade-Wind-Powered-Ship-Model-Toy-Finished-Product.jpg"
     }   
