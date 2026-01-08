@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import profilePic from "/Users/renishaensalaita/Desktop/portfolio/src/assets/profile.jpeg"; // ✅ correct relative path
+import profilePic from "./assets/profile.jpeg"; 
 
 function About() {
   return (
