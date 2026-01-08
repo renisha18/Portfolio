@@ -67,3 +67,62 @@
     font-size: 2rem;
   }
 }
+/* Skills Section */
+.skills-section {
+  margin-bottom: 30px;
+}
+
+.skills-section h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #93c5fd;
+  margin-bottom: 14px;
+}
+
+.skills-group {
+  margin-bottom: 18px;
+}
+
+.skills-group h4 {
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: #9ca3af;
+  letter-spacing: 0.5px;
+}
+
+.skills-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+/* Skill box styling */
+.skill-box {
+  padding: 8px 16px;
+  font-size: 0.85rem;
+  border-radius: 12px;
+
+  background: rgba(30, 58, 138, 0.25);
+  color: #e5e7eb;
+
+  border: 1px solid rgba(147, 197, 253, 0.25);
+  backdrop-filter: blur(6px);
+
+  transition: all 0.25s ease;
+}
+
+/* Hover effect */
+.skill-box:hover {
+  background: rgba(30, 58, 138, 0.5);
+  border-color: #93c5fd;
+  color: #ffffff;
+
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(147, 197, 253, 0.25);
+}
+
+/* Non-tech title spacing */
+.non-tech-title {
+  margin-top: 24px;
+}

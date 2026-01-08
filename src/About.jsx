@@ -4,6 +4,7 @@ import profilePic from "./assets/profile.jpeg";
 
 function About() {
   return (
+    <div>
     <section className="about-container">
       {/* Profile Image */}
       <div className="about-image">
@@ -11,7 +12,10 @@ function About() {
       </div>
 
       {/* Content */}
+      {/* Skills Section */}
+
       <div className="about-content">
+        
         <h1>About Me</h1>
 
         <p>
@@ -39,8 +43,59 @@ function About() {
         <p>
           Outside of academics and coding, I enjoy chess, dance, and the arts.
         </p>
+     
       </div>
+      
     </section>
+     {/* Skills Section */}
+<div className="skills-section">
+  <h2>Technical Skills</h2>
+
+  <div className="skills-group">
+    <h4>Programming Languages</h4>
+    <div className="skills-row">
+      <span className="skill-box">Python</span>
+      <span className="skill-box">JavaScript</span>
+    </div>
+  </div>
+
+  <div className="skills-group">
+    <h4>Web Development</h4>
+    <div className="skills-row">
+      <span className="skill-box">HTML</span>
+      <span className="skill-box">CSS</span>
+      <span className="skill-box">React.js</span>
+      <span className="skill-box">Node.js</span>
+      <span className="skill-box">Express.js</span>
+      <span className="skill-box">EJS</span>
+      <span className="skill-box">REST APIs</span>
+    </div>
+  </div>
+
+  <div className="skills-group">
+    <h4>Databases</h4>
+    <div className="skills-row">
+      <span className="skill-box">MySQL</span>
+      <span className="skill-box">PostgreSQL</span>
+    </div>
+  </div>
+
+  <div className="skills-group">
+    <h4>IoT & Embedded Systems</h4>
+    <div className="skills-row">
+      <span className="skill-box">ESP32</span>
+      <span className="skill-box">Arduino IDE</span>
+    </div>
+  </div>
+
+  <h2 className="non-tech-title">Non-Technical Skills</h2>
+
+  <div className="skills-row">
+    <span className="skill-box">Figma</span>
+    <span className="skill-box">Canva</span>
+  </div>
+</div>
+</div>
   );
 }
 
