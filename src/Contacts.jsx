@@ -9,7 +9,7 @@ function Contacts() {
       <div className="contact-item">
         <i className="bi bi-file-earmark-text"></i>
         <a
-          href="https://your-resume-link.com"
+          href="https://drive.google.com/file/d/17T6jONsOo9-5_luPj5ZijtodiX0LGEIs/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -28,16 +28,16 @@ function Contacts() {
         </a>
       </div>
 
-      <div className="contact-item">
-        <i className="bi bi-linkedin"></i>
-        <a
-          href="www.linkedin.com/in/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          LinkedIn
-        </a>
-      </div>
+ <div className="contact-item">
+  <i className="bi bi-linkedin"></i>
+  <a
+    href="https://www.linkedin.com/in/renisha-ensalaita-r-47a2442a1"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    LinkedIn
+  </a>
+</div>
 
       <div className="contact-item">
         <i className="bi bi-envelope"></i>

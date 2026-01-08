@@ -1,0 +1,69 @@
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+
+  padding: 20px;
+}
+
+/* Profile image wrapper */
+.about-image {
+  flex-shrink: 0;
+}
+
+.about-image img {
+  width: 260px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 20px;
+
+  border: 2px solid #1e3a8a;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.6);
+}
+
+/* Content section */
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.about-content h1 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #93c5fd;
+  margin-bottom: 10px;
+}
+
+.about-content p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #d1d5db;
+}
+
+/* Subtle hover polish */
+.about-image img:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-image img {
+    width: 120px;
+    height: 80px;
+  }
+
+  .about-content h1 {
+    font-size: 2rem;
+  }
+}

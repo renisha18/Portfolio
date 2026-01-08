@@ -42,35 +42,45 @@ function Projects() {
       githubLink: "https://github.com/renisha18/ChrisMOM-ChrisCHILD",
       demoLink: "https://your-demo-link.com",
     },
+    {
+      title: "Smart Hovercraft (IoT-Based Control System)",
+      techStack: "Arduino · ESP Microcontroller · Blynk IoT · Embedded C · Motor Drivers · PWM Speed Control · Wireless Communication",
+      description:
+        "A role-based web application implementing secure login and random user allocation using backend logic.",
+      image:
+        "https://ae01.alicdn.com/kf/Sfa8fe82e781d437e98ebbe9b62c308b7J/Amphibious-Remote-Control-Hovercraft-RC-Ship-Model-DIY-Handmade-Wind-Powered-Ship-Model-Toy-Finished-Product.jpg"
+    }   
   ];
 
   return (
     <div className="projects-container">
-      <h1>Projects</h1>
+  <h1>Projects</h1>
 
-      {projects.map((project, index) => (
-        <div className="project-box" key={index}>
-          <img src={project.image} alt={project.title} />
+  {projects.map((project, index) => (
+    <div className="project-box" key={index}>
+      <img src={project.image} alt={project.title} />
 
-          <div className="project-content">
-            <h2>{project.title}</h2>
-            <p className="tech-stack">{project.techStack}</p>
-            <p>{project.description}</p>
+      <div className="project-content">
+        <h2>{project.title}</h2>
+        <p className="tech-stack">{project.techStack}</p>
+        <p>{project.description}</p>
 
-            <div className="project-buttons">
-              <a
-                href={project.githubLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn github-btn"
-              >
-                GitHub
-              </a>
-            </div>
-          </div>
+        <div className="project-buttons">
+          {project.githubLink && (
+            <a
+              href={project.githubLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn github-btn"
+            >
+              GitHub
+            </a>
+          )}
         </div>
-      ))}
+      </div>
     </div>
+  ))}
+</div>
   );
 }
 

@@ -1,49 +1,46 @@
 import React from "react";
+import "./About.css";
+import profilePic from "/Users/renishaensalaita/Desktop/portfolio/src/assets/profile.jpeg"; // ✅ correct relative path
 
 function About() {
   return (
-    <div>
-      
+    <section className="about-container">
+      {/* Profile Image */}
+      <div className="about-image">
+        <img src={profilePic} alt="Renisha Ensalaita" />
+      </div>
 
-      <div>
+      {/* Content */}
+      <div className="about-content">
         <h1>About Me</h1>
 
         <p>
           Hi, I’m Renisha Ensalaita, a motivated third-year Information Technology
           student with a strong passion for full-stack development, UI/UX design,
-          and building meaningful technology-driven solutions. I enjoy transforming
-          ideas into clean, user-friendly digital experiences that balance
-          functionality, performance, and aesthetics.
-
+          and building meaningful technology-driven solutions.
         </p>
-<br></br>
+
         <p>
           I have hands-on experience developing reliable full-stack applications
           using modern web technologies like React, Node.js, Express, and
-          relational databases, along with a solid foundation in database design
-          and backend logic. I’m particularly interested in problem-solving,
-          system design fundamentals, and enterprise technology solutions.
+          relational databases.
         </p>
-<br></br>
+
         <p>
           Beyond web development, I actively explore data science and Web3
-          technologies to broaden my technical perspective and better understand
-          emerging systems.
+          technologies to broaden my technical perspective.
         </p>
-<br />
+
         <p>
           I’ve worked on diverse projects ranging from React-based applications
-          using APIs to IoT and embedded systems projects like a
-          smartphone-controlled hovercraft built with ESP32 and Arduino.
+          using APIs to IoT and embedded systems projects.
         </p>
-<br />
+
         <p>
           Outside of academics and coding, I enjoy chess, dance, and the arts.
-          These interests shape my creativity, strategic thinking, and
-          problem-solving approach.
         </p>
       </div>
-    </div>
+    </section>
   );
 }
 
